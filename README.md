@@ -1,6 +1,6 @@
-# Phase 1.5 — Token Management + Cost
+# Phase4 — Token Management + Cost
 
-Building on phase 1.4's streaming chatbot: counting tokens before sending, trimming conversation history to stay under a token budget, choosing the right model tier, and tracking real per-turn cost.
+Building on v3 streaming chatbot: counting tokens before sending, trimming conversation history to stay under a token budget, choosing the right model tier, and tracking real per-turn cost.
 
 ## What this covers
 - `client.messages.count_tokens(...)` — a separate call that only counts, doesn't generate; useful for cost estimation and catching context-window overflow before it happens
